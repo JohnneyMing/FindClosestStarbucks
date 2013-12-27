@@ -1,4 +1,4 @@
-Author : Mingwei zhong
+//Author : Mingwei zhong
 
 #include "Starbucks.h"
 #include "KDTree.h"
