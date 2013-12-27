@@ -5,7 +5,7 @@ Find the nearest Starbucks location
 
 Background info
 ---------------
-Imagine that you need to find the closes Starbucks store to your current location. Google maps makes this very easy – Simply searching for your current address + “starbucks” will work (http://maps.google.com/maps?q=starbucks%2045056). This kind of problem is called the “nearest neighbor problem.” In the nearest neighbor problem we start with a large but seldom changing list of locations (that is, we get the x and y coordinates of all Starbucks locations), and build a data structure. This data structure’s goal is to make it very efficient to find the closest Starbucks to a given pair of x and y coordinates. In this assignment you will design a data structure that solves the nearest-neighbor problem. 
+Imagine that you need to find the closes Starbucks store to your current location. Google maps makes this very easy – Simply searching for your current address + “starbucks” will work (http://maps.google.com/maps?q=starbucks%2045056). This kind of problem is called the “nearest neighbor problem.” In the nearest neighbor problem we start with a large but seldom changing list of locations (that is, we get the x and y coordinates of all Starbucks locations), and build a data structure. This data structure’s goal is to make it very efficient to find the closest Starbucks to a given pair of x and y coordinates. 
 
 Your data structure will support two operations:
 
