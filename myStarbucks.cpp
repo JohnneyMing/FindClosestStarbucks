@@ -36,13 +36,13 @@
   {
 	  vector<KDNode*> result;
 	  kdtree.getNearest(x, y, result);
-	  //cout << "result.size(): " << result.size() << endl;
+	  
 	  if (result.size() == 0){
 		  return NULL;
 	  }
 	  KDNode* minNode = result[0];
 	  double minDistance = distance(x, y, minNode->x, minNode->y);
-	  //cout << "minDistance: " << minDistance << endl;
+	  
 	  for (std::vector<KDNode*>::iterator it = result.begin() ; it != result.end(); ++it){
 		  double currentDistance = distance(x, y, (*(it))->x, (*(it))->y);
 
@@ -52,7 +52,7 @@
 		  if ( currentDistance < minDistance){
 			  minDistance = currentDistance;
 			  minNode = *it;
-			  //cout << "minDistance: " << minDistance << endl;
+
 		  }
 	  }
 	  Entry* entry = new Entry();
